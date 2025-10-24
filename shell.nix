@@ -20,6 +20,9 @@ pkgs.mkShell
   shellHook = ''
     echo "Dev environment"
 
-    alias run='cargo run'
+    alias crd='cargo run --debug'
+    alias crr='cargo run --release'
+    alias cbd='cargo build --debug'
+    alias cbr='cargo build --release'
   '';
 }
