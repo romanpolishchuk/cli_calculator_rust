@@ -1,6 +1,6 @@
 # Basic cli calculator writen in Rust
 
-It support: + - * / ( )
+It supports: + - * / ( )
 
 >Example:
 ```
